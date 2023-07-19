@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+#ladder-icon {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 2px;
+
+}
+
+#bg-container {
+    background-color: black;
+}
+
+.Banner-Section-container {
+    background-image: url('https://www.iimtindia.net/Blog/wp-content/uploads/2021/09/10-Things-to-know-before-starting-your-first-Data-Science-Project.jpg');
+    background-size: cover;
+    height: 100vh;
+    font-family: "Roboto";
+    color: #ffffff;
+}
+
+.main-heading {
+    font-size: 50px;
+    font-family: "Roboto";
+    color: #ffffff;
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+.description {
+    font-weight: 400;
+    color: #cfceba;
+    font-size: 30px;
+    font-family: "Verdana";
+}
+
+.custom-button {
+    color: #ffffff;
+    height: 40px;
+    width: 120px;
+    background-color: #4895d9;
+    border-width: 0px;
+    border-radius: 12px;
+    font-weight: 700;
+}
+
+.home-content {
+    background-color: #02072b;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    padding: 10px;
+}
+
+.home-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    margin-top: 30px;
+}
+
+.home-image {
+    width: 500px;
+    height: 250px;
+}
+
+.home-description {
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: 300;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+.about-container {
+    background-color: #02072b;
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    padding: 20px;
+}
+
+.about-heading {
+    color: #4895d9;
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 40px;
+    padding-top: 10px;
+}
+
+.about-img {
+    height: 250px;
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.about-description {
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: 300;
+    color: white;
+    margin-top: 10px;
+}
+
+.blog-container {
+    background-color: #02072b;
+    background-size: cover;
+    text-align: center;
+    padding: 20px;
+}
+
+.blog-heading {
+    color: #4895d9;
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 40px;
+    padding-top: 10px;
+}
+
+.blog-card-section {
+    background-color: #4895d9;
+}
+
+.blog-image {
+    height: 150px;
+}
+
+.blog-card-title {
+    font-size: 30px;
+    font-family: "Roboto";
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.blog-card-description {
+    font-size: 20px;
+    font-family: "Roboto";
+    color: #02072b;
+}
+
+.blog-link {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.contact-content {
+    background-color: #02072b;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-heading {
+    color: #4895d9;
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 40px;
+    padding-top: 10px;
+}
+
+.contact-mail {
+    font-size: 15px;
+    font-family: "Roboto";
+    color: #ffffff;
+}
+
+.contact-links {
+    font-size: 14px;
+    font-family: "Roboto";
+    color: #ffffff;
+}
+
+.links {
+    color: #3080f0;
+    padding: 0.5rem;
+    padding-bottom: 1.8rem;
+    font-size: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .home-card {
+        display: flex;
+        flex-direction: row;
+    }
+}
