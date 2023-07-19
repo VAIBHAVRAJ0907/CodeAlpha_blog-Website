@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="blog.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3ef7d8651e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="bg-container">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="https://t4.ftcdn.net/jpg/03/66/36/13/240_F_366361307_3V5LgLnwxQnrHwmrQMnitHahJOyxTTLN.jpg" alt="" width="180" height="100" class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" id="ladder-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link active m-2 ml-4" style="color:#ffffff; font-weight:600" href="#home">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link m-2  ml-4" style="color:#ffffff; font-weight:600" href="#about">About me</a>
+                    <a class="nav-link m-2  ml-4" style="color:#ffffff; font-weight:600" href="#blog">Blog</a>
+                    <a class="nav-link m-2  ml-4" style="color:#ffffff; font-weight:600" href="#contacts">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="Banner-Section-container d-flex flex-column justify-content-center">
+        <div class="text-center p-5">
+            <h1 class="main-heading mb-5"> Evolution</h1>
+            <p class="description mb-5">'Empowering the Future'</p>
+            <button class="custom-button mb-5"> Sign up</button>
+        </div>
+
+    </div>
+    <section id="home">
+        <div class="home-content" id="home-page">
+            <div class="home-card">
+                <img class="home-image" src="https://www.homecareinsight.co.uk/2020/07/connected-technology.jpg" alt="technology" />
+                <p class="home-description">Technology has become an indispensable part of our lives, permeating every aspect of society and reshaping the way we live, work, and interact. From the invention of the wheel to the revolutionary breakthroughs of the digital age, technology has been a catalyst for progress and has continuously transformed the world around us. This essay explores the profound impact of technology on various spheres of human existence, highlighting both its benefits and potential challenges.</p>
+            </div>
+            <div class="angle-down-icon">
+                <a href="#about"><i class="fas fa-angle-down"></i></a>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="about-container">
+            <h1 class="about-heading">About Me</h1>
+            <p class="about-description">
+                I am VAIBHAV RAJ, B.Tech CSE 3RD Year student studying at IIMT College of Engineering.
+                I really enjoy solving problems as well as making things pretty and easy to use. I can't stop learning new
+                things; the more, the better.
+            </p>
+        </div>
+    </section>
+    <section id="blog">
+        <div class="blog-container pt-3 pb-3">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="blog-heading">Trending Blogs</h1>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="blog-card-section mb-3 shadow">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-trending-blogs-1-img.png" class="blog-image w-100" />
+                        <h1 class="blog-card-title p-2">TECHNOLOGY</h1>
+                        <p class="blog-card-description p-2">New Way to See the World. It is a simulated experience that can be completely different from the real world.</p>
+                        <a href="" class="blog-link p-2">READ MORE
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffffff" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="blog-card-section mb-3 shadow">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-trending-blogs-2-img.png" class="blog-image w-100" />
+                        <h1 class="blog-card-title p-2">VIRTUAL REALITY</h1>
+                        <p class="blog-card-description p-2">The best one for you. Come experience the wonder of Google Earth in virtual reality.</p>
+                        <a href="" class="blog-link p-2">READ MORE
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffffff" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="blog-card-section mb-3 shadow">
+                        <img src="https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-pro-4.jpg" class="blog-image w-100" />
+                        <h1 class="blog-card-title p-2">APPLE STORE</h1>
+                        <p class="blog-card-description p-2">Experience the future of innovation with iPhone - where style meets functionality in perfect harmony!</p>
+                        <a href="" class="blog-link p-2">READ MORE
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffffff" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="blog-card-section mb-3 shadow">
+                        <img src="https://www.highsnobiety.com/static-assets/thumbor/zLC41NNiDYKoaZ5q6kneqQAV_9w=/1600x1067/www.highsnobiety.com/static-assets/wp-content/uploads/2021/10/25113108/apple-airpod-gen-3-review-main.jpg" class="blog-image w-100" />
+                        <h1 class="blog-card-title p-2">Shopsy</h1>
+                        <p class="blog-card-description p-2">Immerse yourself in a symphony of wireless freedom with AirPods - where seamless connectivity and unrivaled sound quality redefine your audio experience.</p>
+                        <a href="" class="blog-link p-2">READ MORE
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffffff" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <sextion id="contacts">
+        <div class="contact-content">
+            <h2 class="contact-heading">Contact Me</h2>
+            <p class="contact-mail">
+                Get in touch with me <i class="fa-solid fa-arrow-right"></i> vaibhavraj0907@gmail.com
+            </p>
+            <p class="contact-links">Or find me on:</p>
+            <div class="links">
+                <a href="https://www.linkedin.com/in/vaibhav-raj-20231022b" target="blank"><i class="fab fa-linkedin"></i> Linkedin</a>
+                <a href="https://github.com/VAIBHAVRAJ0907" target="blank"><i class="fab fa-github"></i> Github</a>
+            </div>
+        </div>
+    </sextion>
+</body>
+
+</html>
